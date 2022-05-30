@@ -1,0 +1,46 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+#bucket{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+}
+
+.image{
+    height: 200px;
+    width: 200px;
+}
+
+.box{
+    width: 60%;
+    margin: auto;
+}
+
+#remove_coffee{
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+}
+
+#remove_coffee:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+#confirm_checkout{
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+}
+
+#confirm_checkout:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+
+}

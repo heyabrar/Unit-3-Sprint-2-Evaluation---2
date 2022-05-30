@@ -1,0 +1,18 @@
+#confirm{
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+}
+
+#confirm:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+#order-form{
+   margin-left: 40%;
+   margin-top: 100px;
+
+}
